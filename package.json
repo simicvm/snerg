@@ -1,0 +1,30 @@
+{
+  "name": "snerg",
+  "version": "1.0.0",
+  "description": "test snerg neural rendering",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simicvm/snerg.git"
+  },
+  "keywords": [
+    "snerg",
+    "nerf",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simicvm/snerg/issues"
+  },
+  "homepage": "https://github.com/simicvm/snerg#readme",
+  "dependencies": {
+    "local-web-server": "^5.2.1"
+  }
+}
