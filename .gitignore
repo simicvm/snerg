@@ -1,0 +1,14 @@
+.DS_Store
+.huskyrc.json
+__pycache__
+.vscode/**
+node_modules/**
+data/**
+tmp/**
+output/*
+!output/**/
+output/nerf_synthetic/*
+!output/nerf_synthetic/**/
+output/nerf_synthetic/lego/*
+!output/nerf_synthetic/lego/**/
+!output/nerf_synthetic/lego/baked/**
