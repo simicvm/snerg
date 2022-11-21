@@ -1,0 +1,133 @@
+:root {
+--sans-serif-font-family: "Quattrocento Sans", sans-serif;
+--serif-font-family:      "PT Serif", Georgia, "Times New Roman", serif;
+--code-font-family:       "Source Code Pro", monospace;
+
+--body-color:             #505050;
+--link-color:             black;
+
+--code-background-color:   #f5f5f5;
+--pagination-button-color: #e0e0e0;
+
+--dark-gray-color:        #333;
+--light-gray-color:       #999;
+--extra-light-gray-color: #ccc;
+
+--container-responsive-width: 768px;
+--elements-responsive-width:  30em;
+
+--icon-transition-time: .5s;
+--envelope-color:       #f39c12;
+--twitter-color:        #00aced;
+--instagram-color:      #375989;
+--github-color:         #343434;
+--linkedin-color:       #0073a4;
+--facebook-color:       #3d5b99;
+--pinterest-color:      #bd081c;
+--medium-color:         #00AB6C;
+--codepen-color:        black;
+--rss-color:            #ff6600;
+}
+
+/*
+  Base
+*/
+
+body {
+  font-family: var(--serif-font-family);
+  font-size: 18px;
+  color: var(--body-color);
+  line-height: 1.75rem;
+}
+
+@media (max-width: var(--elements-responsive-width)) {
+  body {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+  body h1 {
+    font-size: 1.5rem;
+  }
+}
+
+h1{
+  font-size: 2rem;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--sans-serif-font-family);
+  color: var(--dark-gray-color);
+}
+
+a {
+  text-decoration: underline;
+  color: var(--dark-gray-color);
+}
+
+a:hover {
+  color: var(--link-color);
+  border-bottom: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+blockquote {
+  margin: 10px 20px 10px;
+  padding: 0px 15px;
+  border-left: 0.25em solid var(--extra-light-gray-color);
+  color: var(--light-gray-color);
+  line-height: 1.5;
+}
+
+hr {
+  border-top: 1px solid var(--extra-light-gray-color);
+}
+
+/*
+  Tables
+*/
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+/*
+  Site container
+*/
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 615px;
+}
+
+.content-container {
+  margin-bottom: 4rem;
+}
+
+/*48em*/
+
+@media (max-width: var(--container-responsive-width)) {
+  .container {
+    width: 90vw;
+  }
+}
